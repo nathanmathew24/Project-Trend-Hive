@@ -1,0 +1,41 @@
+# TrendHive Backend — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ─────────────────────────────────────────────────────
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+
+# ── Data Processing ──────────────────────────────────────────────────
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0
+
+# ── Machine Learning ─────────────────────────────────────────────────
+scikit-learn>=1.2.0
+joblib>=1.2.0
+shap>=0.42.0
+
+# ── Deep Learning (LSTM Forecasting) ─────────────────────────────────
+tensorflow>=2.12.0
+
+# ── NLP / Sentiment ──────────────────────────────────────────────────
+textblob>=0.17.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# ── Agentic AI ───────────────────────────────────────────────────────
+httpx>=0.24.0
+openai>=1.0.0
+anthropic>=0.18.0
+
+# ── Email Agent ──────────────────────────────────────────────────────
+# (uses smtplib from stdlib, no extra deps)
+
+# ── Visualization (for notebooks) ────────────────────────────────────
+matplotlib>=3.7.0
+folium>=0.14.0
+
+# ── Statistical Fallback (LSTM) ──────────────────────────────────────
+scipy>=1.10.0
+statsmodels>=0.14.0

@@ -1,0 +1,7 @@
+trendhive_env/
+venv/
+__pycache__/
+*.pyc
+*.joblib
+node_modules/
+.env

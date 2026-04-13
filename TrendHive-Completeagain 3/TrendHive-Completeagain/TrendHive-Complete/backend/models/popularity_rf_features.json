@@ -1,0 +1,22 @@
+[
+  "Rating",
+  "Reviews",
+  "free_parking_lot",
+  "paid_parking_lot",
+  "free_street_parking",
+  "paid_street_parking",
+  "valet_parking",
+  "utility_cost_aed_month",
+  "avg_commercial_rent_aed_sqft_year",
+  "competitors_within_300m",
+  "competitors_within_500m",
+  "competitors_within_1000m",
+  "avg_review_rating",
+  "avg_polarity",
+  "neg_share",
+  "pos_share",
+  "utility_level",
+  "rent_tier",
+  "competition_level",
+  "detected_area"
+]
